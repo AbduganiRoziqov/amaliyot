@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(157, 157, 157 );
+    padding: 20px 30px ;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    z-index: 99;
+}
+nav h2{
+    font-family: 'Josefin Sans';
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+nav input{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.main__ul{
+    display: flex;
+    justify-content: center;
+    margin:0 30px ;
+    
+}
+.main__ul li{
+    margin:0 50px ;
+    align-items: center;
+    font-size: 700;
+}
+.main__ul li:hover{
+    color:#fff;
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-style:1px solid white;
+}
+.media {
+    position: relative;
+}
+.media video {
+    width: 100%;
+}
+.media .text {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 60%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.text h1 {
+    text-shadow: 2px 2px white, 4px 4px black;
+}
+.text p {
+    text-shadow: 2px 2px white, 4px 4px black;
+}
+.contact {
+    width: 60%;
+    border: 5px dashed red;
+    margin: 80px auto;
+    text-align: center;
+}
+.half {
+    width: 47%;
+    margin: 10px;
+}
+input {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+}
+.full {
+    width: 90%;
+    margin: 20px 0;
+}
+textarea {
+    resize: none;
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+    height: 100px;
+}
+button {
+    width: 90%;
+    margin: 8px;
+    background-color: lightblue;
+    border: 2px solid burlywood;
+    padding: 8px;
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.opasity{
+    opacity: 0.5;
+}
